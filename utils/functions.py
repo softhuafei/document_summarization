@@ -78,6 +78,8 @@ tgts len mean, 0.9 and 0.8
 57
 52
 """
+
+
 if __name__ == '__main__':
     # rewrite_train()
     prepare_NLPCC('../data/NLPCC/train.txt', '../data/NLPCC/train.src', '../data/NLPCC/train.tgt')

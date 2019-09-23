@@ -1,0 +1,14 @@
+
+# I/O path
+data: '/home/mashuming/data/summarization/lcsts/lcsts.low.share.train.pt'
+log: 'data/lcsts'
+restore: ~  # checkpoint
+emb_file: ~
+
+
+
+# trainning setting
+model: 'seq2seq'
+device: 'cpu' # cpu or cuda
+limit: 0 # valid model with small, same trainset and validset
+batch_size: 1
